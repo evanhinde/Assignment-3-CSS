@@ -1,0 +1,132 @@
+html{
+  scroll-behavior: smooth;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 125px;
+  background-image:url(./img/BagCandy-44_1024x1024.jpg.webp);
+  background-size: cover;
+}
+header nav menu{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+header nav menu li{
+  padding: 0px 55px;
+  font-size: 25px;
+  color: #f4f4f4;
+  text-shadow: 4px 2px 4px rgba(0,0,0,.5);
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav menu li:hover{
+  color: blue;
+  transition: .5s;
+}
+.masthead{
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: maroon;
+}
+.masthead div{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.masthead div a{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.masthead div a img{
+  height: 200px;
+  width: 70%;
+}
+.grid-columns{
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+}
+.grid-columns div{
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+}
+.grid-columns div h4{
+  margin: 0px;
+  color: #f4f4f4;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-text-stroke: 2.5px;
+  -webkit-text-stroke-color: blue;
+}
+.grid-columns div p{
+  margin: 0px;
+  opacity: 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+.grid-columns div:nth-of-type(1){
+  background-image: url(./img/images.jpeg);
+}
+.grid-columns div:nth-of-type(2){
+ background-image: url(./img/s-l500.jpg);
+}
+.grid-columns div:nth-of-type(3){
+  background-image: url(./img/l-intro-1639407066.jpg);
+}
+.grid-columns div:hover{
+  filter: grayscale(1);
+  transition: .5s;
+}
+.grid-columns div:hover h4{
+  opacity: 0;
+  transition: .5s;
+}
+.grid-columns div:hover p{
+  opacity: 1;
+  transition: .5s;
+}
+footer{
+  background-color: maroon;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+footer div img{
+  height: 125px;
+  width: 200px;
+  padding: 100px;
+}
+.contact-info{
+  color: #f4f4f4;
+  list-style: none;
+  font-size: 20px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.contact-link a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4f4f4;
+}
+.contact-link a:hover{
+  color: blue;
+  transition: .5s;
+}
+
+
+
